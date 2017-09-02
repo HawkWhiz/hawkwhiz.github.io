@@ -1,0 +1,13 @@
+.dark-background{
+  color: #FFE365;
+  background-color: #36434B;
+}
+.light-background{
+  color: #36434B;
+  background-color: #FFE365;
+}
+.bg{background-repeat: no-repeat;
+  background-size: cover;}
+.bg-1{background-image: url(../images/pic1.jpg);}
+.bg-2{background-image: url(../images/pic2.jpg);}
+.bg-3{background-image: url(../images/pic3.jpg);}

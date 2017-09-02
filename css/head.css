@@ -1,0 +1,62 @@
+a, a:hover, a:active {
+text-decoration: none; !important
+}
+#header{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    display: inline-block;
+    font-size: 34px;
+  font-family: 'Abril Fatface', cursive;}
+.head-elements{padding: 4px;}
+
+.hamburger{  float: left;}
+.name{
+float: center;
+text-align: center;
+letter-spacing: 1px;
+}
+button{
+  border: 0px;
+  background: inherit;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    font-family: 'Lato', sans-serif;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+  //  left: 25px;
+    font-size: 36px;
+}
+.closebtn{
+  position: absolute;
+  top: 0;
+  left:12px;
+}
+.side-link{
+  padding: 8px 8px 8px 0;
+  display: block;
+   font-size: 25px;
+  margin: auto;
+  border-bottom: 0.001px solid #7F6B0C;
+}
+.side-link:hover{
+  color: #FFE365;
+  background-color: #36434B;
+  border-width: 0px;
+}
+/*@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}*/

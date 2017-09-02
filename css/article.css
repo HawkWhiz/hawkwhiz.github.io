@@ -1,0 +1,148 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    background-color: #fdfdfd;
+}
+    #article{
+       width: 85%;
+       max-width: 770px;
+       color: #222222;
+       margin: auto ;
+       font-size: 20px;
+       padding: 22px;
+       padding-top: 0;
+       line-height: 33px;
+       font-family: 'PT Serif', serif;
+    }
+    .date{
+        font-size: 15px;
+        font-family: 'Cutive Mono', monospace;        color: #616161;
+        margin-bottom: 10px;
+    }
+     h1{
+      font-family: 'Crete Round', serif;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 33px;
+      margin-bottom:5px;
+ }
+ .watch-as-video{
+   background-color: #cd201f;
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+   border-radius: 4px;
+   padding: 4px;
+   margin: 6px 0 6px 0;
+ }
+.fa-youtube-play{
+  float: left;
+  margin-left: 5px;
+  position: relative;
+  transform: translateY(30%);
+  font-size: 3px;
+}
+ h2{
+    font-family: 'Crete Round', serif;
+    margin-top: 24px;
+    margin-bottom:0px;
+    font-weight: 300;
+    padding-right: 5px;
+    font-size: 23px;
+    line-height: 26px;
+}
+   p{
+       font-size: 19px;
+       line-height: 1.58;
+        margin-top: 6px;
+   }
+   .picture-div{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    line-height: 20px;
+    background-color: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 7px 7px 7px 7px;
+  }
+    .picture{
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+    font-size: 22px;
+  }
+  .pin-front, .fb-front, .twt-front{
+    margin: 2px;
+    }
+  .pin-front{
+    padding: 5px 0 0 5px;
+  }
+  .pic-caption{
+    padding: 0 5px 5px 5px;
+    font-size: 15px;
+  }
+   a{text-decoration: underline; color:#000000;}
+ul{
+  list-style-type:  none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  padding: 0;
+}
+li{
+  display: inline-block;
+  background-color: #E0E0E0;
+  padding: 0 7px 0 7px;
+  border-radius: 4px;
+  margin: 3px;
+}
+li:hover, li:active{
+  background-color: #BDBDBD;
+}
+#more_share{
+color: #FFE365;
+background-color: #36434B;
+font-size: 30px;
+width: 50px;
+height: 50px;
+z-index: 2;
+position: fixed;
+bottom: 5px;
+right: 5px;
+border-radius: 50%;
+border-width: 0;
+}
+#share_buttons{
+  display: none;
+  width: 100%;
+  position: fixed;
+  bottom:0;
+}
+.share_button{
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  z-index: 3;
+  border-radius: 50%;
+  border-width: 0;
+  margin: 5px;
+  color: #ffffff;
+}
+.d{ position: relative;
+  transform: translateY(7%);}
+  .dd{ position: relative;
+    transform: translateY(13%);}
+.l{ position: relative;
+    transform: translateX(-7%);}
+.fb{  background-color: #3b5998;}
+.fb-front{ color: #3b5998;}
+.wa{  background-color: #075e54}
+.lnk{ background-color: #0077B5;}
+.stu{background-color: #eb4924;}
+.pkt{ background-color: #ef4056;}
+  .rdt{background-color: #ff4500;}
+.fbm{background-color: #0084ff;}
+.twt{  background-color: #0084b4;}
+.twt-front{color: #0084b4;}
+.pin{  background-color: #C8232C;}
+.pin-front{color: #C8232C;}
+.cls{ background-color: #F44336;}
+.more, .dgg, .plus_button{  background-color: #000; border: 0}
