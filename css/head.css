@@ -1,19 +1,18 @@
 a, a:hover, a:active {
-text-decoration: none; !important
+text-decoration: none;
+color: inherit;
 }
 #header{
     width: 100%;
-     min-width: 475px;
-    margin: 0;
+/*    margin: 0;*/
     margin-bottom: 5px;
     padding: 0;
-    display: inline-block;
+/*    display: inline-block;*/
     font-size: 34px;
   font-family: 'Abril Fatface', cursive;}
 .head-elements{padding: 4px;}
 
-.hamburger{  float: left;
-}
+.hamburger{  float: left;}
 .name{
 float: center;
 text-align: center;
