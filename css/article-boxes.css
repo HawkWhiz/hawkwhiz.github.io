@@ -1,7 +1,10 @@
 html, body{
   width: 100%;
   height: 100%;
-  margin: 0 auto;
+  margin: 0;
+}
+body{
+  text-align: center;
 }
 .box{
   height:233px;
