@@ -12,7 +12,8 @@ text-decoration: none; !important
   font-family: 'Abril Fatface', cursive;}
 .head-elements{padding: 4px;}
 
-.hamburger{  float: left;}
+.hamburger{  float: left;
+}
 .name{
 float: center;
 text-align: center;
@@ -30,6 +31,7 @@ button{
     top: 0;
     font-family: 'Lato', sans-serif;
     left: 0;
+    text-align: center;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
