@@ -38,9 +38,7 @@ html,body{
 .fa-youtube-play{
   float: left;
   margin-left: 5px;
-  position: relative;
-  transform: translateY(30%);
-  font-size: 3px;
+  font-size: 30px;
 }
  h2{
     font-family: 'Crete Round', serif;
@@ -60,6 +58,7 @@ html,body{
     width: 100%;
     max-width: 500px;
     margin: auto;
+
     line-height: 20px;
     background-color: #EEEEEE;
     font-family: 'Roboto', sans-serif;
@@ -68,19 +67,33 @@ html,body{
     .picture{
     width: 100%;
     border-radius: 7px 7px 0 0;
-    font-size: 22px;
+
   }
-  .pin-front, .fb-front, .twt-front{
+  /*.pin-front, .fb-front, .twt-front{
     margin: 2px;
+    font-size: 30px;
     }
   .pin-front{
     padding: 5px 0 0 5px;
-  }
+  }*/
   .pic-caption{
-    padding: 0 5px 5px 5px;
+    padding: 7px 5px 5px 5px;
+    text-align: left;
     font-size: 15px;
+
   }
-   a{text-decoration: underline; color:#000000;}
+  .pic-share-btn-wrap{
+    display: table;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .pic-share-btn{
+    border: 0px;
+    width: 33.333%;
+    color: #ffffff;
+    padding: 4px;
+  }
 ul{
   list-style-type:  none;
   font-family: 'Roboto', sans-serif;

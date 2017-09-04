@@ -4,15 +4,15 @@ color: inherit;
 }
 #header{
     width: 100%;
-/*    margin: 0;*/
     margin-bottom: 5px;
     padding: 0;
-/*    display: inline-block;*/
     font-size: 34px;
   font-family: 'Abril Fatface', cursive;}
 .head-elements{padding: 4px;}
-
-.hamburger{  float: left;}
+.fa-bars{
+  font-size: 34px;
+}
+.hamburger{float: left;}
 .name{
 float: center;
 text-align: center;
@@ -42,16 +42,16 @@ button{
     font-size: 36px;
 }
 .closebtn{
-  position: absolute;
-  top: 0;
-  left:12px;
+  margin-top: 3px;
+  left: 12px;
+
 }
 .side-link{
   padding: 8px 8px 8px 0;
   display: block;
-   font-size: 25px;
+  font-size: 25px;
   margin: auto;
-  border-bottom: 0.001px solid #7F6B0C;
+  border-bottom: 1px solid #7F6B0C;
 }
 .side-link:hover{
   color: #FFE365;
