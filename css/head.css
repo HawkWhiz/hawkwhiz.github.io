@@ -8,9 +8,9 @@ color: inherit;
     padding: 0;
     font-size: 34px;
   font-family: 'Abril Fatface', cursive;}
-.head-elements{padding: 4px;}
+.head-elements{padding: 4px; }
 .fa-bars{font-size: 34px;}
-.hamburger{float: left;}
+.hamburger{float: left; }
 .name{
 float: center;
 text-align: center;
@@ -23,7 +23,7 @@ button{  border: 0px;  background: inherit;}
     position: fixed;
     z-index: 3;
     top: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Crete Round', serif;
     left: 0;
     text-align: center;
     overflow-x: hidden;
@@ -47,11 +47,15 @@ button{  border: 0px;  background: inherit;}
   margin: auto;
   border-bottom: 1px solid #7F6B0C;
 }
+.side-link-one{
+  border-top: 1px solid #7F6B0C;
+}
 .side-link:hover{
   color: #FFE365;
   background-color: #36434B;
   border-width: 0px;
 }/*@media screen and (max-height: 450px) {    .sidenav {padding-top: 15px;}    .sidenav a {font-size: 18px;}}*/
+
 /* The following is background.css*/
 .dark-background{color: #FFE365; background-color: #36434B;}
 .light-background{color: #36434B;background-color: #FFE365;}
@@ -59,4 +63,3 @@ button{  border: 0px;  background: inherit;}
 .bg-1{background-image: url(../images/pic1.jpg);}
 .bg-2{background-image: url(../images/pic2.jpg);}
 .bg-3{background-image: url(../images/pic3.jpg);}
-
