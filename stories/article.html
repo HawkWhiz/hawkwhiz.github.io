@@ -5,10 +5,13 @@
 <link href="https://fonts.googleapis.com/css?family=Crete+Round|PT+Serif|Roboto" rel="stylesheet">
 <script src="https://use.fontawesome.com/09a777e9fd.js"></script>
 <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script async src="../js/sharebtn.js" type="text/javascript"></script>
 <script async src="../js/share.js" type="text/javascript"></script>
 <script async src="head.js" type="text/javascript"></script>
+<script> var url = "https://hawkwhiz.github.io/stories/article.html",
+title = "3.1 Why couldn't we why are it?"; </script>
 <link rel="stylesheet" type="text/css" href="../css/article.css"/>
-<link rel="stylesheet" type="text/css" href="../css/animate.css" />
+
 <link type="text/css" rel="stylesheet" href="css/head.css">
 </head>
 <body>
@@ -64,19 +67,15 @@
                       </ul>
     </div><!-- End of article-->
 
-    <button id="more_share" class="animated"><i class="fa fa-share-alt l" aria-hidden="true"></i></button>
-<div id="share_buttons" class="animated fadeIn">
-  <button class="share_button rdt"><i class="fa fa-reddit-alien" aria-hidden="true"></i></button>
-  <button class="share_button dgg"><i class="fa fa-digg" aria-hidden="true"></i></button>
-  <button class="share_button stu"><i class="fa fa-stumbleupon" aria-hidden="true"></i></button>
-  <button class="share_button pkt"><i class="fa fa-get-pocket d" aria-hidden="true"></i></button>
-  <button class="share_button pin"> <i class="fa fa-pinterest-p dd" aria-hidden="true"></i> </button>
-  <button class="share_button wa"><i class="fa fa-whatsapp" aria-hidden="true"></i></button>
-  <button class="share_button fbm"><i class="fa fa-facebook d" aria-hidden="true"></i></button>
-  <button class="share_button lnk"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
-  <button class="share_button fb"><i class="fa fa-facebook d" aria-hidden="true"></i></button>
-  <button class="share_button twt"> <i class="fa fa-twitter d" aria-hidden="true"></i> </button>
-  <button class="share_button cls animated" id="less_share"><i class="fa fa-times" aria-hidden="true"></i></button>
+    <button id="more_share"><i class="fa fa-share-alt l" aria-hidden="true"></i></button>
+<div id="share_buttons">
+
+  <button class="share_button fb" onClick="shareFacebook()"><i class="fa fa-facebook d" aria-hidden="true"></i></button>
+  <button class="share_button twt" onClick="shareTwitter()"> <i class="fa fa-twitter d" aria-hidden="true"></i> </button>
+  <button class="share_button lnk" onClick="shareLinkedin()"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+  <button class="share_button rdt" onClick="shareReddit()"><i class="fa fa-reddit-alien" aria-hidden="true"></i></button>
+    <button class="share_button dgg" onClick="shareDigg()"><i class="fa fa-digg" aria-hidden="true"></i></button>
+  <button class="share_button cls" id="less_share"><i class="fa fa-times" aria-hidden="true"></i></button>
   <!--<button class="share_button">  </button>     ***Add another button***  -->
 </div>
 

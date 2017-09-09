@@ -10,7 +10,7 @@ color: inherit;
   font-family: 'Abril Fatface', cursive;}
 .head-elements{padding: 4px; }
 .fa-bars{font-size: 34px;}
-.hamburger{float: left; }
+.hamburger{float: left;}
 .name{
 float: center;
 text-align: center;
@@ -29,17 +29,20 @@ button{  border: 0px;  background: inherit;}
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;}
-.sidenav .closebtn {
+.side-head{
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  top:0;
+}
+.sidenav  {
     position: absolute;
     top: 0;
-  //  left: 25px;
     font-size: 36px;
 }
-.closebtn{
-  margin-top: 3px;
-  left: 12px;
-
-}
+.closebtn{ float: left;}
 .side-link{
   padding: 8px 8px 8px 0;
   display: block;
@@ -47,17 +50,15 @@ button{  border: 0px;  background: inherit;}
   margin: auto;
   border-bottom: 1px solid #7F6B0C;
 }
-.side-link-one{
-  border-top: 1px solid #7F6B0C;
-}
 .side-link:hover{
   color: #FFE365;
   background-color: #36434B;
   border-width: 0px;
-}/*@media screen and (max-height: 450px) {    .sidenav {padding-top: 15px;}    .sidenav a {font-size: 18px;}}*/
+}
 
 /* The following is background.css*/
 .dark-background{color: #FFE365; background-color: #36434B;}
+.dark{ color:#36434B; background-color: #36434B;}
 .light-background{color: #36434B;background-color: #FFE365;}
 .bg{background-repeat: no-repeat; background-size: cover;}
 .bg-1{background-image: url(../images/pic1.jpg);}
