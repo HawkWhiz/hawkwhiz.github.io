@@ -4,6 +4,7 @@ html,body{
    background-color: #fdfdfd;
    margin: 0 auto;
 }
+
     #article{
        width: 85%;
        max-width: 770px;
@@ -23,6 +24,7 @@ html,body{
      h1{
       font-family: 'Crete Round', serif;
       font-size: 40px;
+      line-height: 41px;
       text-align: center;
       margin-top: 33px;
       margin-bottom:16px;
