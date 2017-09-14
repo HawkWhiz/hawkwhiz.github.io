@@ -29,4 +29,5 @@ function shareLinkedin(){
 function sharePinterestPicture(picFile){
     var encodePinPic = encodeURIComponent("https://hawkwhiz.github.io/images/" + "picFile");
     var link = "https://pinterest.com/pin/create/bookmarklet/?media=" + encodePinPic + "&url=" + encodeURL + "&description=" + encodeTitle;
+    window.open(link);
 }
