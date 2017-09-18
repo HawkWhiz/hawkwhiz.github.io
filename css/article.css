@@ -34,14 +34,16 @@ html,body{
    background-color: #cd201f;
    color: #ffffff;
    font-family: 'Roboto', sans-serif;
+     font-size: 20px;
    border-radius: 4px;
    padding: 4px;
    margin: 6px 0 18px 0;
  }
 .fa-youtube-play{
+  font-size: 33px;
   float: left;
   margin-left: 5px;
-  font-size: 30px;
+
 }
  h2{
     font-family: 'Crete Round', serif;
