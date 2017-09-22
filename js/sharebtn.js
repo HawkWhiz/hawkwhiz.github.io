@@ -18,6 +18,10 @@ function shareLinkedin(U){
       var link="http://reddit.com/submit?url=" + encodeURIComponent(U) + "&title=";
       window.open(link);}
 
+      function shareWhatsapp(U, T){
+        link = "whatsapp://send?text=" + encodeURIComponent(T) + encodeURIComponent(U);
+        window.open(link);}
+
         function shareDigg(U,T){
           var link = "http://digg.com/submit?url=" + encodeURIComponent(U) + "&title=" + encodeURIComponent(T);
           window.open(link);}
